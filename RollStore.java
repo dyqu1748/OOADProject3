@@ -7,31 +7,36 @@ import java.util.Map;
 public abstract class RollStore {
 
     private PropertyChangeSupport watcher = new PropertyChangeSupport(this);
-    private HashMap<String, Integer> inStock = new HashMap<String, Integer>();
+    private HashMap<String, Integer> stock = new HashMap<String, Integer>();
     private int maxStock;
     private boolean open;
 
     //Abstract methods below allow for different stores to sell different rolls/decorators
-    protected abstract Roll createRoll(String type, ArrayList<String> extra);
+    protected abstract Roll createRoll(String type);
 
     protected abstract Roll addExtra(Roll roll, ArrayList<String> extra);
 
-    public Roll orderRoll(String type, ArrayList<String> extra){
-        if (this.getStock(type) > 0) {
-            Roll roll = createRoll(type, extra);
-
-            if (extra.size() > 0) {
-                roll = addExtra(roll, extra);
+    public Roll orderRoll(ArrayList<String> order){
+        String type = order.get(0);
+        if (stock.get(type) > 0) {
+            //Remove roll type from order so that it only contains the decorations
+            order.remove(0);
+            Roll roll = createRoll(type);
+            //Check if there are decorations to add to the roll
+            if (order.size() > 0) {
+                roll = addExtra(roll, order);
             }
-
+            //Decrease the stock of the current roll by 1
             int curStock = this.getStock(type) - 1;
             this.setStock(type, curStock);
 
             return roll;
         }
+        //Roll is out of stock, return null
         return null;
     }
 
+    //Set and get the max stock for all rolls. This will be useful for varying maximum roll stock required by the outline.
     public void setMaxStock(int maxStock){
         this.maxStock = maxStock;
     }
@@ -41,27 +46,28 @@ public abstract class RollStore {
     }
 
     public void setStock(String type, int stock){
-        inStock.put(type,stock);
+        this.stock.put(type,stock);
         //Send announcement letting customers know a type of roll has sold out
         if (stock == 0){
             watcher.firePropertyChange(type,1,0);
             //Check if all rolls sold out
-            this.outOfStock();
+            this.allOutOfStock();
+
         }
     }
 
     public int getStock(String type){
-        return(inStock.get(type));
+        return(stock.get(type));
     }
 
     public void openStore(){
         open=true;
 //        https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
         // Restock any rolls that are completely out for the new day
-        for (Map.Entry item: inStock.entrySet()){
+        for (Map.Entry item: stock.entrySet()){
             String type = (String)item.getKey();
-            int stock = (int)item.getValue();
-            if (stock == 0){
+            int stockAmount = (int)item.getValue();
+            if (stockAmount == 0){
                 this.setStock(type,maxStock);
             }
         }
@@ -72,10 +78,10 @@ public abstract class RollStore {
     }
 
     //Note: this method will only run when one roll type sells out. There should be no risk of it firing a property change when the stock is max for all rolls.
-    public void outOfStock(){
+    public void allOutOfStock(){
 //        https://dev4devs.com/2018/01/18/java8-how-to-check-if-all-values-in-an-array-are-equal/
         //If 0 is the only distinct value in inStock, that means all rolls have sold out.
-        if (inStock.values().stream().distinct().count() == 1) {
+        if (stock.values().stream().distinct().count() == 1) {
             this.closeStore();
             watcher.firePropertyChange("open", true, false);
         }
