@@ -7,6 +7,7 @@ public class BusinessCustomer extends Customer {
 
     public BusinessCustomer(){
         this.setCustType("Business");
+        this.setOgOrderPossible(true);
     }
 
     public void makeOrder(HashMap<String, Integer> stock){
