@@ -12,7 +12,7 @@ public abstract class Customer {
     public void setOgOrderPossible(boolean originalOrder){
         this.ogOrderPossible = originalOrder;
     }
-
+    //Method below will be used to track in final output how many original orders weren't possible
     public boolean isOgOrderPossible(){
         return ogOrderPossible;
     }
@@ -20,73 +20,51 @@ public abstract class Customer {
     public void setCustType(String type){
         this.custType = type;
     }
-
     public String getCustType(){
         return custType;
     }
 
+    //Method below is used when customer is ordering, no need to call in main.
     public void setCurOrder(ArrayList<ArrayList<String>> order){
         this.curOrder = order;
     }
-
+    //Method should be used to provide store's orderRolls method arguments. Iterate through arraylists and call orderRolls with current arraylist.
     public ArrayList<ArrayList<String>> getCurOrder(){
         return curOrder;
     }
 
+    //Method below should be used in conjunction with RollStore's orderRolls method; add roll returned to customers list of ordered rolls
     public void addRollOrdered(Roll roll){
         rollsOrdered.add(roll);
     }
-
+    //Use this method to possibly get the total cost of the customer's order. Will need to hold total cost in either the store or some other class
     public ArrayList<Roll> getRollsOrdered(){
         return rollsOrdered;
     }
 
+    //Provide method below with the store's stock hashmap so that the customer knows what they can/can't order.
     public abstract void makeOrder(HashMap<String, Integer> stock);
 
     public ArrayList<String> rollOrder(String type){
         ArrayList<String> curOrder = new ArrayList<>();
         curOrder.add(type);
+        //Combine extras ordered into one singular order
         curOrder.addAll(extraOrder());
         return curOrder;
     }
 
+    //This will be automatically called within roll order;
     public ArrayList<String> extraOrder(){
         Random rand = new Random();
         ArrayList<String> extras = new ArrayList<>();
-        int chanceTop = rand.nextInt(100)+1;
-        int chanceFill = rand.nextInt(100)+1;
-        int chanceSauce = rand.nextInt(100)+1;
-        if (chanceSauce <= 25){
-            chanceSauce = 0;
-        }
-        else if (chanceSauce > 25 && chanceSauce <=50){
-            chanceSauce = 1;
-        }
-        else if (chanceSauce >50 && chanceSauce <=75){
-            chanceSauce = 2;
-        }
-        else{
-            chanceSauce = 3;
-        }
+        //Will buy 0 - 3 toppings; randomly decided
+        int chanceTop = rand.nextInt(4);
+        //Will buy 0 - 1 fillings; randomly decided
+        int chanceFill = rand.nextInt(2);
+        //Will buy 0 - 2 toppings; randomly decided
+        int chanceSauce = rand.nextInt(3);
 
-        if (chanceFill <=50){
-            chanceFill = 0;
-        }
-        else{
-            chanceFill = 1;
-        }
-
-        if (chanceTop <= 33){
-            chanceTop = 0;
-        }
-        else if (chanceTop > 33 && chanceTop <=66){
-            chanceTop = 1;
-        }
-        else{
-            chanceTop = 2;
-        }
-
-
+        //Add all extras to order
         for (int i =0; i < chanceSauce; i++){
             extras.add("Sauce");
         }

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+//May need to have the store hold the day,sales numbers, etc. Or we can have a cashier class which will get the attributes from customer and calculate them itself.
+
 public abstract class RollStore {
 
     private PropertyChangeSupport watcher = new PropertyChangeSupport(this);
@@ -16,8 +18,10 @@ public abstract class RollStore {
 
     protected abstract Roll addExtra(Roll roll, ArrayList<String> extra);
 
-    public Roll orderRoll(ArrayList<String> order){
+    public Roll orderRolls(ArrayList<String> order){
+        //Get the roll type
         String type = order.get(0);
+        //Check if roll is in stock
         if (stock.get(type) > 0) {
             //Remove roll type from order so that it only contains the decorations
             order.remove(0);

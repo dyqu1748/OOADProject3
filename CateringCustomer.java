@@ -48,17 +48,19 @@ public class CateringCustomer extends Customer {
             while(numOrdered < 15 && typeInd < types.size()){
                 String curType = types.get(typeInd);
                 int curStock = stock.get(curType);
+                //Current roll type has stock that does not exceed our order limit. Order all stock of this type.
                 if (numOrdered + curStock <= 15) {
                     for (int i = 0; i < curStock; i++) {
                         order.add(rollOrder(curType));
                         numOrdered++;
                     }
                 }
+                //Current roll type has stock that exceeds our order limit. Only order up to the limit.
                 else{
-                    for (int i = 0; i < 15 - numOrdered;i++){
+                    for (int i = numOrdered; i < 15;i++){
                         order.add(rollOrder(curType));
-                        numOrdered++;
                     }
+                    numOrdered = 15;
                 }
             }
 

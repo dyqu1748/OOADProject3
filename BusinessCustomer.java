@@ -19,6 +19,7 @@ public class BusinessCustomer extends Customer {
                 return;
             }
         }
+        //Original order possible, make the order.
         ArrayList<ArrayList<String>> order = new ArrayList<>();
         ArrayList<String> types = new ArrayList<>();
         types.addAll(stock.keySet());
