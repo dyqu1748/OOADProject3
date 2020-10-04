@@ -35,14 +35,32 @@ public class BoulderRollStore extends RollStore {
         //Add requested extras to the roll
         for (String ex: extra){
             switch(ex){
-                case "Sauce":
-                    roll = new Sauce(roll);
+                case "SoySauce":
+                    roll = new SoySauce(roll);
                     break;
-                case "Filling":
-                    roll = new Filling(roll);
+                case "FruitSauce":
+                    roll = new FruitSauce(roll);
                     break;
-                case "Topping":
-                    roll = new Topping(roll);
+                case "Ketchup":
+                    roll = new Ketchup(roll);
+                    break;
+                case "ShrimpFilling":
+                    roll = new ShrimpFilling(roll);
+                    break;
+                case "FruitFilling":
+                    roll = new FruitFilling(roll);
+                    break;
+                case "CheeseFilling":
+                    roll = new CheeseFilling(roll);
+                    break;
+                case "MintTopping":
+                    roll = new MintTopping(roll);
+                    break;
+                case "WhippedCream":
+                    roll = new WhippedCream(roll);
+                    break;
+                case "BaconTopping":
+                    roll = new BaconTopping(roll);
                     break;
             }
         }

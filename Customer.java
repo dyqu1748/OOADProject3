@@ -49,32 +49,63 @@ public abstract class Customer {
         ArrayList<String> curOrder = new ArrayList<>();
         curOrder.add(type);
         //Combine extras ordered into one singular order
-        curOrder.addAll(extraOrder());
+        curOrder.addAll(extraOrder(type));
         return curOrder;
     }
 
     //This will be automatically called within roll order;
-    public ArrayList<String> extraOrder(){
+    public ArrayList<String> extraOrder(String type){
         Random rand = new Random();
         ArrayList<String> extras = new ArrayList<>();
         //Will buy 0 - 3 toppings; randomly decided
+        //Topping type will depend on roll type.
         int chanceTop = rand.nextInt(4);
+        for (int i = 0; i < chanceTop; i++) {
+            switch (type) {
+                case "Spring":
+                case "Egg":
+                    extras.add("MintTopping");
+                    break;
+                case "Sausage":
+                    extras.add("BaconTopping");
+                    break;
+                case "Pastry":
+                case "Jelly":
+                    extras.add("WhippedCream");
+            }
+        }
         //Will buy 0 - 1 fillings; randomly decided
         int chanceFill = rand.nextInt(2);
+        for (int i =0; i < chanceFill; i++){
+            switch (type) {
+                case "Spring":
+                case "Egg":
+                    extras.add("ShrimpFilling");
+                    break;
+                case "Sausage":
+                    extras.add("CheeseFilling");
+                    break;
+                case "Pastry":
+                case "Jelly":
+                    extras.add("FruitFilling");
+            }
+        }
         //Will buy 0 - 2 toppings; randomly decided
         int chanceSauce = rand.nextInt(3);
-
-        //Add all extras to order
         for (int i =0; i < chanceSauce; i++){
-            extras.add("Sauce");
+            switch (type) {
+                case "Spring":
+                case "Egg":
+                    extras.add("SoySauce");
+                    break;
+                case "Sausage":
+                    extras.add("Ketchup");
+                    break;
+                case "Pastry":
+                case "Jelly":
+                    extras.add("FruitSauce");
+            }
         }
-        for (int i =0; i < chanceFill; i++){
-            extras.add("Filling");
-        }
-        for (int i =0; i < chanceTop; i++){
-            extras.add("Topping");
-        }
-
         return extras;
 
     }
