@@ -113,7 +113,7 @@ public class Main {
                 }
                 brs.displayDailyCashSales();
                 brs.displayDailyImpacts();
-                brs.displayDailyRollOrders();
+                brs.displayRollsOrdered("Daily");
                 if (sa.isStockOut()) {
                     System.out.println("Store closed on day " + brs.getDay() + " due to lack of inventory.\n");
                 }
@@ -122,7 +122,7 @@ public class Main {
             DecimalFormat df = new DecimalFormat("0.00");
 
             System.out.println("Store statistics after 30 days:");
-            brs.displayTotalRollOrders();
+            brs.displayRollsOrdered("Total");
             System.out.println("Total money in sales: $" + df.format(brs.getTotalCash()));
             System.out.println("Total number of outage impacts: " + brs.getTotalOutageImpacts());
             outFile.close();

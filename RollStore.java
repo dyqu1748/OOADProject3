@@ -162,29 +162,28 @@ public abstract class RollStore {
         System.out.println();
     }
 
-    public void displayDailyRollOrders(){
-        System.out.println("Inventory orders by roll type:");
-        for(Map.Entry item: this.rollsSoldDaily.entrySet()){
-            String type = (String)item.getKey();
-            int amount = (int)item.getValue();
-            System.out.println(type + " rolls: " + amount + " sold");
-        }
-        System.out.println();
-    }
-
-    public void displayTotalRollOrders(){
+    public void displayRollsOrdered(String outType){
+        //Useset will be the entryset that will be parsed for output
+        Set<Map.Entry<String, Integer>> useSet;
         //Total sold will hold the total amount of rolls sold
         int totalSold = 0;
-        Set<Map.Entry<String, Integer>> a = this.rollsSoldTotal.entrySet();
-        System.out.println("Total number of rolls sold by type:");
-        for(Map.Entry item: this.rollsSoldTotal.entrySet()){
+        if (outType.equals("Daily")){
+            useSet  = this.rollsSoldDaily.entrySet();
+        }
+        else{
+            useSet  = this.rollsSoldTotal.entrySet();
+        }
+        for(Map.Entry item: useSet){
             String type = (String)item.getKey();
             int amount = (int)item.getValue();
             //Increase total rolls sold with the value of the current type
             totalSold+=amount;
             System.out.println(type + " rolls: " + amount + " sold");
         }
-        System.out.println("Total number of rolls sold overall: " + totalSold + " sold");
+        //Only the 30-day output should output the total number of rolls sold.
+        if(outType.equals("Total")) {
+            System.out.println("Total number of rolls sold overall: " + totalSold + " sold");
+        }
     }
 
 //    https://www.journaldev.com/776/string-to-array-java
