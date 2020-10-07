@@ -36,7 +36,7 @@ public class BoulderRollStore extends RollStore {
     }
 
     public Roll addExtra(Roll roll, ArrayList<String> extra){
-        //Add requested extras to the roll
+        //Add all requested extras to the roll provided
         for (String ex: extra){
             switch(ex){
                 case "SoySauce":
@@ -66,6 +66,9 @@ public class BoulderRollStore extends RollStore {
                 case "BaconTopping":
                     roll = new BaconTopping(roll);
                     break;
+                default:
+                    //Invalid extra type inputted. Print out error statement and do not add anything to the roll.
+                    System.out.println("Invalid extra type");
             }
         }
         return roll;

@@ -31,6 +31,7 @@ public class CasualCustomer extends Customer {
                 chosen++;
             }
         }
+        //Replace will track the number of rolls we may need to replace if what we've chosen is out of stock.
         int replace = 0;
         ArrayList<String> remove = new ArrayList<>();
         for (Map.Entry item: randChoices.entrySet()){
@@ -42,10 +43,12 @@ public class CasualCustomer extends Customer {
                 //Desired roll is completely out of stock, remove from order list.
                 if(stock.get(type) == 0){
                     remove.add(type);
+                    //Increment replace so that we can replace the removed roll later.
                     replace++;
                 }
                 else{
-                    desire--;
+                    //The number of rolls we want of this type is less than what is available. Set the number that we'll order equal to what is in stock.
+                    desire = stock.get(type);
                     randChoices.put(type,desire);
                 }
             }
@@ -53,23 +56,28 @@ public class CasualCustomer extends Customer {
 
         //Check if we need to replace rolls that we ordered that were out of stock
         if (replace > 0){
+            //Make a copy of the types arraylist. This is used to ensure no keys from stock is modified in any way
             ArrayList<String> typesCopy = (ArrayList<String>)types.clone();
+            //Remove the out of stock rolls from our choices.
             for (String type: remove){
                 randChoices.remove(type);
                 typesCopy.remove(type);
             }
+            //While we haven't replaced our removed rolls, and while there are still rolls in stock to choose from, replace our removed rolls.
             while (replace > 0 && typesCopy.size() > 0){
                 String curRoll = typesCopy.get(0);
                 //Roll already previously chosen. See if there's enough additional stock to buy.
                 if(randChoices.containsKey(curRoll)){
                     int stockCheck = randChoices.get(curRoll) + 1;
                     if (stockCheck <= stock.get(curRoll)){
+                        //There's enough of the roll in stock to order. Add it to the order.
                         randChoices.put(curRoll,stockCheck);
                         replace--;
                     }
                 }
+                //Roll has not yet been chosen
                 else{
-                    //Check to see if the roll chosen is in stock
+                    //Check to see if the roll chosen is in stock so that we can add it to our order.
                     if(stock.get(curRoll) > 0){
                         randChoices.put(curRoll,1);
                         replace--;

@@ -8,6 +8,7 @@ public class WhippedCream extends RollDecorator {
         return (roll.getDescription() + ", Whipped cream");
     }
 
+    //Cost of whipped cream will vary between jelly and pastry rolls.
     public double getCost(){
         if (roll.getClass() == PastryRoll.class){
             return(roll.getCost() + 0.25);

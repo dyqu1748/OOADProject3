@@ -1,23 +1,24 @@
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Arrays;
+import java.util.*;
 
 //May need to have the store hold the day,sales numbers, etc. Or we can have a cashier class which will get the attributes from customer and calculate them itself.
 
 public abstract class RollStore {
 
+    //Observer that will keep track of the roll inventory of the store. Will announce when individual types and all types run out.
     private PropertyChangeSupport watcher = new PropertyChangeSupport(this);
+    //Stock will be a hashmap with the keys being the roll types and the values being their current stock.
     private HashMap<String, Integer> stock = new HashMap<String, Integer>();
+    //Maxstock is used hold the maximum amount of rolls of any type that can be held. Allows us to specify the value at runtime if desired.
     private int maxStock;
     private boolean open;
     private int day = 0;
 
     private int totalOutageImpacts;
     private double totalCash;
+    //Daily outage impacts, cash sales, and rolls sales will all be hashmaps. Their keys will be customer and roll types respectively.
     private HashMap<String,Integer> dailyOutageImpacts = new HashMap<>();
     private HashMap<String, Double> dailyCashSales = new HashMap<>();
     private HashMap<String, Integer> rollsSoldDaily = new HashMap<>();
@@ -25,7 +26,6 @@ public abstract class RollStore {
 
     //Abstract methods below allow for different stores to sell different rolls/decorators
     protected abstract Roll createRoll(String type);
-
     protected abstract Roll addExtra(Roll roll, ArrayList<String> extra);
 
     public Roll orderRolls(Customer customer, ArrayList<String> order){
@@ -46,10 +46,12 @@ public abstract class RollStore {
             int curStock = this.stock.get(type) - 1;
             this.setStock(type, curStock);
 
+            //Increase the money we've made from the roll sale
             double newDailyCash = this.dailyCashSales.get(custType) + roll.getCost();
             this.dailyCashSales.put(custType,newDailyCash);
             this.totalCash+=roll.getCost();
 
+            //Increment the number of this roll type that we've sold.
             int newDailyRoll = this.rollsSoldDaily.get(type) + 1;
             int newTotalRoll = this.rollsSoldTotal.get(type) + 1;
             this.rollsSoldDaily.put(type,newDailyRoll);
@@ -59,7 +61,7 @@ public abstract class RollStore {
         }
         else {
             //Roll is out of stock, return null
-            //This is mainly used to catch errors in order from the customer
+            //This is mainly used to catch errors in the ordering process from the customer
             return null;
         }
     }
@@ -68,7 +70,6 @@ public abstract class RollStore {
     public void setMaxStock(int maxStock){
         this.maxStock = maxStock;
     }
-
     public int getMaxStock(){
         return(maxStock);
     }
@@ -88,6 +89,7 @@ public abstract class RollStore {
         return(stock);
     }
 
+    //Open and close the store. Also announce that the store is open/closed.
     public void openStore(){
         System.out.println("The store is now open!\n");
         open=true;
@@ -102,6 +104,7 @@ public abstract class RollStore {
         return open;
     }
 
+    //Getter and incrementer for day attribute.
     public int getDay(){
         return day;
     }
@@ -131,14 +134,18 @@ public abstract class RollStore {
         }
     }
 
+    //All of the display... functions will be used to calculate and output statistics at the end of every day and at the end of 30 days.
+    //        https://www.geeksforgeeks.org/traverse-through-a-hashmap-in-java/
+    //        https://mkyong.com/java/how-to-round-double-float-value-to-2-decimal-points-in-java/
     public void displayDailyCashSales(){
-//        https://mkyong.com/java/how-to-round-double-float-value-to-2-decimal-points-in-java/
         DecimalFormat df = new DecimalFormat("0.00");
+        //Daily total will hold the total cash made on that day.
         double dailyTotal = 0;
         System.out.println("Total payment for orders:");
         for(Map.Entry item: this.dailyCashSales.entrySet()){
             String type = (String)item.getKey();
             double sale = (double)item.getValue();
+            //Increase the daily total with the current roll sale
             dailyTotal+=sale;
             System.out.println(type + " customers: $" + df.format(sale));
         }
@@ -166,38 +173,54 @@ public abstract class RollStore {
     }
 
     public void displayTotalRollOrders(){
+        //Total sold will hold the total amount of rolls sold
         int totalSold = 0;
+        Set<Map.Entry<String, Integer>> a = this.rollsSoldTotal.entrySet();
         System.out.println("Total number of rolls sold by type:");
         for(Map.Entry item: this.rollsSoldTotal.entrySet()){
             String type = (String)item.getKey();
             int amount = (int)item.getValue();
+            //Increase total rolls sold with the value of the current type
             totalSold+=amount;
             System.out.println(type + " rolls: " + amount + " sold");
         }
         System.out.println("Total number of rolls sold overall: " + totalSold + " sold");
     }
 
+//    https://www.journaldev.com/776/string-to-array-java
+//    https://www.journaldev.com/18361/java-remove-character-string
+//https://www.techiedelight.com/get-subarray-array-specified-indexes-java/
     public void displayOrderDetails(Customer customer, ArrayList<Roll> rollsOrdered){
         double cost = 0.0;
+        //Make a copy of rollsOrdered so that the original is not modified in any way
         ArrayList<Roll> orderCopy = (ArrayList<Roll>)rollsOrdered.clone();
+        //Order and extra counter will hold the number of rolls by type and extras ordered
         HashMap<String, Integer> orderCounter = new HashMap<>();
         HashMap<String, Integer> extraCounter = new HashMap<>();
+        //Iterate through the rolls ordered
         for(Roll roll: orderCopy){
             String desc = roll.getDescription();
+            //Modify the roll description so that it can more easily be parsed
             desc = desc.replace(", ", "/");
             desc = desc.replace("roll","");
+            //Hold all of the roll's information in an array to be parsed
             String[] info = desc.split("/");
             String rollType = info[0];
+            //Check if the roll we're on has already been counted
             if (orderCounter.containsKey(rollType)) {
+                //Increment the already counted roll type
                 int newAmount = orderCounter.get(rollType) + 1;
                 orderCounter.put(info[0],newAmount);
             }
             else{
+                //Add the new roll to our counter hashmap
                 orderCounter.put(info[0],1);
             }
+            //Check if the roll had any extras added to it (info will have length 1 if only the roll itself was ordered).
             if (info.length > 1) {
-                //https://www.techiedelight.com/get-subarray-array-specified-indexes-java/
-                String[] curExtra = Arrays.copyOfRange(info, 1, info.length - 1);
+                //Create an array to hold only the extras
+                String[] curExtra = Arrays.copyOfRange(info, 1, info.length);
+                //Iterate through the extras and add them to our counter hashmap
                 for (String ex: curExtra){
                     if(extraCounter.containsKey(ex)){
                         int newExAmount = extraCounter.get(ex)+1;
@@ -208,16 +231,20 @@ public abstract class RollStore {
                     }
                 }
             }
+            //Add current roll cost to total
             cost+=roll.getCost();
         }
+        //Properly output the price with df (only 2 decimal places)
         DecimalFormat df = new DecimalFormat("0.00");
         System.out.println("Customer type: " + customer.getCustType());
         System.out.println("Rolls ordered by type:");
+        //Iterate through the order counter and output the number of each roll that was ordered
         for(Map.Entry item: orderCounter.entrySet()){
             String type = (String)item.getKey();
             int amount = (int)item.getValue();
             System.out.println(type + "roll: " + amount);
         }
+        //Iterate through the extra counter and output the number of each extra that was ordered
         System.out.println("Extras Ordered:");
         for(Map.Entry item: extraCounter.entrySet()){
             String ex = (String)item.getKey();
@@ -230,9 +257,9 @@ public abstract class RollStore {
     public double getTotalCash(){
         return totalCash;
     }
-
     public int getTotalOutageImpacts(){return totalOutageImpacts;}
 
+    //All of the init... methods below will be used to initialize the attributes below to their default starting values (0).
     public void initDailyCashSales(String[] custTypes){
         for (String cust: custTypes) {
             this.dailyCashSales.put(cust, 0.0);
@@ -252,12 +279,15 @@ public abstract class RollStore {
         }
     }
 
+    //Method will be used to increment the number of outages for that day and overall
     public void incOutageImpact(String custType){
         int newDailyImp = this.dailyOutageImpacts.get(custType)+1;
         this.dailyOutageImpacts.put(custType,newDailyImp);
         totalOutageImpacts++;
     }
 
+    //All the reset... methods below will be used to reset the attributes below to their daily default values.
+    //These are different from the init... methods as these assume the rolls/customer types have already been defined (Allows for addition/subtraction of customer/roll types).
     public void resetDailyOutages(){
         for(Map.Entry item: this.dailyOutageImpacts.entrySet()){
             String type = (String)item.getKey();

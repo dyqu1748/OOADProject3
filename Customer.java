@@ -4,11 +4,14 @@ import java.util.HashMap;
 import java.util.Random;
 
 public abstract class Customer {
+    //curOrder will hold all of the customer's roll order. This will be passed into RollStore's orderRolls method to order the requested rolls.
     private ArrayList<ArrayList<String>> curOrder = new ArrayList<>();
+    //rollsOrdered will hold the rolls ordered from the customer. This will be passed into RollStore's displayOrderDetails method for output of required info.
     private ArrayList<Roll> rollsOrdered = new ArrayList<>();
     private String custType;
     private boolean ogOrderPossible;
 
+    //Method will be used to change if the customer's orginal order was possible or not
     public void setOgOrderPossible(boolean originalOrder){
         this.ogOrderPossible = originalOrder;
     }
@@ -17,6 +20,7 @@ public abstract class Customer {
         return ogOrderPossible;
     }
 
+    //Getters/setters for customer type attribute
     public void setCustType(String type){
         this.custType = type;
     }
@@ -45,6 +49,7 @@ public abstract class Customer {
     //Provide method below with the store's stock hashmap so that the customer knows what they can/can't order.
     public abstract void makeOrder(HashMap<String, Integer> stock);
 
+    //Method that will be used to have the customer make their order for the roll passed in.
     public ArrayList<String> rollOrder(String type){
         ArrayList<String> curOrder = new ArrayList<>();
         curOrder.add(type);
@@ -53,7 +58,8 @@ public abstract class Customer {
         return curOrder;
     }
 
-    //This will be automatically called within roll order;
+    //This will be automatically called within roll order
+    //It will add the appropriate extras to their respective rolls
     public ArrayList<String> extraOrder(String type){
         Random rand = new Random();
         ArrayList<String> extras = new ArrayList<>();

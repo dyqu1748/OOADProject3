@@ -31,7 +31,7 @@ public class CateringCustomer extends Customer {
             }
         }
         ArrayList<ArrayList<String>> order = new ArrayList<>();
-        //Original order possible
+        //Original order possible, add rolls to our order.
         if (this.isOgOrderPossible()){
             for (int index: randTypes){
                 String curType = types.get(index);

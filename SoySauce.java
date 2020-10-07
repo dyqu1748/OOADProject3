@@ -8,6 +8,7 @@ public class SoySauce extends RollDecorator{
         return (roll.getDescription() + ", Soy sauce");
     }
 
+    //Cost of soy sauce will vary between egg and spring rolls
     public double getCost(){
         if (roll.getClass() == EggRoll.class){
             return(roll.getCost() + 0.05);
