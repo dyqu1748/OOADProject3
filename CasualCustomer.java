@@ -24,12 +24,11 @@ public class CasualCustomer extends Customer {
             if(randChoices.containsKey(curChoice)){
                 int newAmount =randChoices.get(curChoice) + 1;
                 randChoices.put(curChoice,newAmount);
-                chosen++;
             }
             else{
                 randChoices.put(curChoice,1);
-                chosen++;
             }
+            chosen++;
         }
         //Replace will track the number of rolls we may need to replace if what we've chosen is out of stock.
         int replace = 0;
