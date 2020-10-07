@@ -1,12 +1,11 @@
 public class SoySauce extends RollDecorator{
-    private Roll roll;
 
     public SoySauce(Roll roll){
         this.roll = roll;
     }
 
     public String getDescription(){
-        return (roll.getDescription() + ", soy sauce");
+        return (roll.getDescription() + ", Soy sauce");
     }
 
     public double getCost(){
@@ -17,4 +16,5 @@ public class SoySauce extends RollDecorator{
             return(roll.getCost() + 0.25);
         }
     }
+
 }

@@ -15,35 +15,77 @@ public class CasualCustomer extends Customer {
         ArrayList<ArrayList<String>> order = new ArrayList<>();
         ArrayList<String> types = new ArrayList<>();
         types.addAll(stock.keySet());
+        HashMap<String,Integer> randChoices = new HashMap<>();
         Random rand = new Random();
-        int randType = rand.nextInt(types.size());
         int randBuy = rand.nextInt(3)+1;
-        String randChoice = types.get(randType);
-        //Check if original order is possible.
-        if (stock.get(randChoice) >= randBuy){
-            this.setOgOrderPossible(false);
-            //If the roll we want is completely out of stock, choose a different roll type.
-            if (stock.get(randChoice) == 0) {
-                //rollChoose will be used to notify the loop to stop choosing a roll type once we've found one that is in stock.
-                boolean rollChoose = false;
-                for (Map.Entry item : stock.entrySet()) {
-                    if (!rollChoose) {
-                        int amount = (int) item.getValue();
-                        if (amount > 0) {
-                            randChoice = (String) item.getKey();
-                            rollChoose = true;
-                        }
-                    }
+        int chosen = 0;
+        while(chosen < randBuy){
+            String curChoice = types.get(rand.nextInt(types.size()));
+            if(randChoices.containsKey(curChoice)){
+                int newAmount =randChoices.get(curChoice) + 1;
+                randChoices.put(curChoice,newAmount);
+                chosen++;
+            }
+            else{
+                randChoices.put(curChoice,1);
+                chosen++;
+            }
+        }
+        int replace = 0;
+        ArrayList<String> remove = new ArrayList<>();
+        for (Map.Entry item: randChoices.entrySet()){
+            int desire = (int)item.getValue();
+            String type = (String)item.getKey();
+            //Not enough of the desired roll(s) is in stock; original order not possible
+            if (desire > stock.get(type)){
+                this.setOgOrderPossible(false);
+                //Desired roll is completely out of stock, remove from order list.
+                if(stock.get(type) == 0){
+                    remove.add(type);
+                    replace++;
+                }
+                else{
+                    desire--;
+                    randChoices.put(type,desire);
                 }
             }
         }
-        int amount = stock.get(randChoice);
-        //If the number of rolls we want to buy is more than what is in stock, decrease the amount to buy to the amount available.
-        if (randBuy > amount){
-            randBuy = amount;
+
+        //Check if we need to replace rolls that we ordered that were out of stock
+        if (replace > 0){
+            ArrayList<String> typesCopy = (ArrayList<String>)types.clone();
+            for (String type: remove){
+                randChoices.remove(type);
+                typesCopy.remove(type);
+            }
+            while (replace > 0 && typesCopy.size() > 0){
+                String curRoll = typesCopy.get(0);
+                //Roll already previously chosen. See if there's enough additional stock to buy.
+                if(randChoices.containsKey(curRoll)){
+                    int stockCheck = randChoices.get(curRoll) + 1;
+                    if (stockCheck <= stock.get(curRoll)){
+                        randChoices.put(curRoll,stockCheck);
+                        replace--;
+                    }
+                }
+                else{
+                    //Check to see if the roll chosen is in stock
+                    if(stock.get(curRoll) > 0){
+                        randChoices.put(curRoll,1);
+                        replace--;
+                    }
+                }
+                typesCopy.remove(0);
+            }
         }
-        for (int i = 0; i < randBuy;i++){
-            order.add(rollOrder(randChoice));
+
+        //Add all random rolls chosen to order
+        for (Map.Entry item: randChoices.entrySet()){
+            String randChoice = (String)item.getKey();
+            int numBuy = (int)item.getValue();
+            for(int i = 0; i < numBuy; i++) {
+                order.add(rollOrder(randChoice));
+            }
         }
         this.setCurOrder(order);
     }

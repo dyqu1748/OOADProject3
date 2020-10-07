@@ -1,12 +1,11 @@
 public class MintTopping extends RollDecorator{
-    private Roll roll;
 
     public MintTopping(Roll roll){
         this.roll = roll;
     }
 
     public String getDescription(){
-        return (roll.getDescription() + ", mint topping");
+        return (roll.getDescription() + ", Mint topping");
     }
 
     public double getCost(){
@@ -17,4 +16,5 @@ public class MintTopping extends RollDecorator{
             return(roll.getCost() + 0.5);
         }
     }
+
 }

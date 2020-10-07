@@ -1,7 +1,8 @@
 public class PastryRoll extends Roll {
 
     public PastryRoll(){
-        this.setDescription("Jelly roll");
+        this.setBaseType("Pastry");
+        this.setDescription("Pastry roll");
         this.setCost(5.00);
     }
 }

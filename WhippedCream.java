@@ -1,12 +1,11 @@
 public class WhippedCream extends RollDecorator {
-    private Roll roll;
 
     public WhippedCream(Roll roll){
         this.roll = roll;
     }
 
     public String getDescription(){
-        return (roll.getDescription() + ", whipped cream");
+        return (roll.getDescription() + ", Whipped cream");
     }
 
     public double getCost(){
@@ -17,4 +16,5 @@ public class WhippedCream extends RollDecorator {
             return(roll.getCost() + 0.15);
         }
     }
+
 }

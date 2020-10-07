@@ -2,13 +2,17 @@ import java.util.ArrayList;
 
 public class BoulderRollStore extends RollStore {
 
-    public BoulderRollStore(int maxStock){
+    public BoulderRollStore(int maxStock, StockAnnouncer sa){
+        String[] custTypes = {"Casual", "Business", "Catering"};
         String[] rollTypes = {"Spring", "Egg", "Pastry", "Sausage", "Jelly"};
         this.setMaxStock(maxStock);
+        this.initDailyCashSales(custTypes);
+        this.initDailyOutageImpacts(custTypes);
+        this.initRollsSold(rollTypes);
         for (String type: rollTypes){
             this.setStock(type,maxStock);
         }
-        this.openStore();
+        this.addPropertyChangeListener(sa);
     }
 
     public Roll createRoll(String type){

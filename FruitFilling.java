@@ -1,12 +1,11 @@
 public class FruitFilling extends RollDecorator {
-    private Roll roll;
 
     public FruitFilling(Roll roll){
         this.roll = roll;
     }
 
     public String getDescription(){
-        return (roll.getDescription() + ", fruit filling");
+        return (roll.getDescription() + ", Fruit filling");
     }
 
     public double getCost(){
@@ -17,4 +16,5 @@ public class FruitFilling extends RollDecorator {
             return(roll.getCost() + .75);
         }
     }
+
 }

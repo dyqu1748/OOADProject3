@@ -1,12 +1,11 @@
 public class ShrimpFilling extends RollDecorator {
-    private Roll roll;
 
     public ShrimpFilling(Roll roll){
         this.roll = roll;
     }
 
     public String getDescription(){
-        return (roll.getDescription() + ", shrimp filling");
+        return (roll.getDescription() + ", Shrimp filling");
     }
 
     public double getCost(){
@@ -17,4 +16,5 @@ public class ShrimpFilling extends RollDecorator {
             return(roll.getCost() + 1.25);
         }
     }
+
 }
