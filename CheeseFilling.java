@@ -9,7 +9,7 @@ public class CheeseFilling extends RollDecorator {
     }
 
     public double getCost(){
-        return(roll.getCost() + 1);
+        return(roll.getCost() + .60);
     }
 
 }

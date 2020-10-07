@@ -3,7 +3,4 @@ public abstract class RollDecorator extends Roll {
 
     public abstract String getDescription();
 
-    public String getBaseType(){
-        return (this.roll.getBaseType());
-    }
 }

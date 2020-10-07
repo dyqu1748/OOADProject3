@@ -10,10 +10,10 @@ public class ShrimpFilling extends RollDecorator {
 
     public double getCost(){
         if (roll.getClass() == EggRoll.class){
-            return(roll.getCost() + 1);
+            return(roll.getCost() + .75);
         }
         else{
-            return(roll.getCost() + 1.25);
+            return(roll.getCost() + 1);
         }
     }
 

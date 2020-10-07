@@ -72,8 +72,8 @@ public class Main {
                                     for (ArrayList<String> order: curOrder){
                                         busCust.addRollOrdered(brs.orderRolls(busCust,order));
                                     }
-//                                    System.out.println("Individual customer order:");
-//                                    brs.displayOrderDetails(busCust,busCust.getRollsOrdered());
+                                    System.out.println("Individual customer order:");
+                                    brs.displayOrderDetails(busCust,busCust.getRollsOrdered());
                                     if(!busCust.isOgOrderPossible()){
                                         brs.incOutageImpact(busCust.getCustType());
                                     }
@@ -90,8 +90,8 @@ public class Main {
                                     for (ArrayList<String> order: curOrder){
                                         catCust.addRollOrdered(brs.orderRolls(catCust,order));
                                     }
-//                                    System.out.println("Individual customer order:");
-//                                    brs.displayOrderDetails(catCust,catCust.getRollsOrdered());
+                                    System.out.println("Individual customer order:");
+                                    brs.displayOrderDetails(catCust,catCust.getRollsOrdered());
                                     if(!catCust.isOgOrderPossible()){
                                         brs.incOutageImpact(catCust.getCustType());
                                     }

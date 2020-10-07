@@ -9,7 +9,7 @@ public class BaconTopping extends RollDecorator {
     }
 
     public double getCost(){
-        return(roll.getCost() + .5);
+        return(roll.getCost() + 1.25);
     }
 
 }

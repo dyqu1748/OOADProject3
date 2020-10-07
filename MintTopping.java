@@ -10,10 +10,10 @@ public class MintTopping extends RollDecorator{
 
     public double getCost(){
         if (roll.getClass() == EggRoll.class){
-            return(roll.getCost() + 0.4);
+            return(roll.getCost() + 0.10);
         }
         else{
-            return(roll.getCost() + 0.5);
+            return(roll.getCost() + 0.15);
         }
     }
 
