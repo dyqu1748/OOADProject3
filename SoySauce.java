@@ -10,10 +10,10 @@ public class SoySauce extends RollDecorator{
 
     public double getCost(){
         if (roll.getClass() == EggRoll.class){
-            return(roll.getCost() + 0.1);
+            return(roll.getCost() + 0.05);
         }
         else{
-            return(roll.getCost() + 0.2);
+            return(roll.getCost() + 0.08);
         }
     }
 

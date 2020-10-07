@@ -13,7 +13,7 @@ public class WhippedCream extends RollDecorator {
             return(roll.getCost() + 0.25);
         }
         else{
-            return(roll.getCost() + 0.15);
+            return(roll.getCost() + 0.18);
         }
     }
 

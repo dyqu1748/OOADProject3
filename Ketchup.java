@@ -9,7 +9,7 @@ public class Ketchup extends RollDecorator {
     }
 
     public double getCost(){
-        return(roll.getCost() + 0.2);
+        return(roll.getCost() + 0.02);
     }
 
 }

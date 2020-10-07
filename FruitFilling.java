@@ -13,7 +13,7 @@ public class FruitFilling extends RollDecorator {
             return(roll.getCost() +.35);
         }
         else{
-            return(roll.getCost() + .15);
+            return(roll.getCost() + .2);
         }
     }
 

@@ -10,10 +10,10 @@ public class FruitSauce extends RollDecorator{
 
     public double getCost(){
         if (roll.getClass() == PastryRoll.class){
-            return(roll.getCost() + 0.05);
+            return(roll.getCost() + 0.04);
         }
         else{
-            return(roll.getCost() + 0.1);
+            return(roll.getCost() + 0.09);
         }
     }
 
