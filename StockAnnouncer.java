@@ -1,6 +1,7 @@
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 
+//Implement observer pattern for the program in the form of StockAnnouncer. StockAnnouncer will announce a roll or all rolls run out.
 public class StockAnnouncer implements PropertyChangeListener {
     //Attribute below will be used to output whether or not the store closed due to all rolls running out in Main.
     private boolean stockOut;

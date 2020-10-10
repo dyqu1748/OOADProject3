@@ -3,8 +3,7 @@ import java.beans.PropertyChangeSupport;
 import java.text.DecimalFormat;
 import java.util.*;
 
-//May need to have the store hold the day,sales numbers, etc. Or we can have a cashier class which will get the attributes from customer and calculate them itself.
-
+//Implement Factory pattern in the form of RollStore. RollStore will be used to create and sell rolls. It will also track and display sales data.
 public abstract class RollStore {
 
     //Observer that will keep track of the roll inventory of the store. Will announce when individual types and all types run out.
