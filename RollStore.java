@@ -140,7 +140,7 @@ public abstract class RollStore {
         DecimalFormat df = new DecimalFormat("0.00");
         //Daily total will hold the total cash made on that day.
         double dailyTotal = 0;
-        System.out.println("Total payment for orders:");
+        System.out.println("Total payment for orders today:");
         for(Map.Entry item: this.dailyCashSales.entrySet()){
             String type = (String)item.getKey();
             double sale = (double)item.getValue();
@@ -168,6 +168,7 @@ public abstract class RollStore {
         int totalSold = 0;
         if (outType.equals("Daily")){
             useSet  = this.rollsSoldDaily.entrySet();
+            System.out.println("Rolls sold today:");
         }
         else{
             useSet  = this.rollsSoldTotal.entrySet();
@@ -192,18 +193,23 @@ public abstract class RollStore {
         double cost = 0.0;
         //Make a copy of rollsOrdered so that the original is not modified in any way
         ArrayList<Roll> orderCopy = (ArrayList<Roll>)rollsOrdered.clone();
-        //Order and extra counter will hold the number of rolls by type and extras ordered
+        //Order counter will hold the number of rolls by type and extras ordered
         HashMap<String, Integer> orderCounter = new HashMap<>();
-        HashMap<String, Integer> extraCounter = new HashMap<>();
+        //allRolls will hold every rolls information (how many of each extra they have if some was ordered).
+        ArrayList<String> allRolls = new ArrayList<>();
         //Iterate through the rolls ordered
         for(Roll roll: orderCopy){
+            //outputOrder will be the string we output when displaying the customer's order information per roll
+            String outputOrder = "";
+            //Extra counter will hold the number of extras ordered per roll
+            HashMap<String, Integer> extraCounter = new HashMap<>();
             String desc = roll.getDescription();
             //Modify the roll description so that it can more easily be parsed
             desc = desc.replace(", ", "/");
-            desc = desc.replace("roll","");
             //Hold all of the roll's information in an array to be parsed
             String[] info = desc.split("/");
             String rollType = info[0];
+            outputOrder += info[0];
             //Check if the roll we're on has already been counted
             if (orderCounter.containsKey(rollType)) {
                 //Increment the already counted roll type
@@ -229,6 +235,13 @@ public abstract class RollStore {
                     }
                 }
             }
+            //Iterate through the extra counter and output the number of each extra that was ordered
+            for(Map.Entry item: extraCounter.entrySet()){
+                String ex = (String)item.getKey();
+                int amount = (int)item.getValue();
+                outputOrder+= ", " + amount + " " + ex;
+            }
+            allRolls.add(outputOrder);
             //Add current roll cost to total
             cost+=roll.getCost();
         }
@@ -240,14 +253,11 @@ public abstract class RollStore {
         for(Map.Entry item: orderCounter.entrySet()){
             String type = (String)item.getKey();
             int amount = (int)item.getValue();
-            System.out.println(type + "roll: " + amount);
+            System.out.println(type + ": " + amount);
         }
-        //Iterate through the extra counter and output the number of each extra that was ordered
-        System.out.println("Extras Ordered:");
-        for(Map.Entry item: extraCounter.entrySet()){
-            String ex = (String)item.getKey();
-            int amount = (int)item.getValue();
-            System.out.println(ex + " : " + amount);
+        System.out.println("Individual roll information:");
+        for(String curRoll: allRolls){
+            System.out.println(curRoll);
         }
         System.out.println("Total cost of order: $" + df.format(cost) + "\n");
     }

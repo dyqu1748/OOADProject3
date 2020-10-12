@@ -12,7 +12,7 @@ public class StockAnnouncer implements PropertyChangeListener {
 
     //Reset the stock for the next day if it ran out the previous day.
     public void resetStock(){
-        stockOut= true;
+        stockOut= false;
     }
     //Check if the store closed due to running out of stock.
     public boolean isStockOut(){

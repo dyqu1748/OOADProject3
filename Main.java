@@ -18,6 +18,8 @@ public class Main {
             System.out.println("Hello store manager! Please enter the maximum stock for the rolls of your store.");
             boolean gotInput = false;
             int maxStock = 0;
+            //Take in user input to get the maximum stock of the rolls (user should enter 30 to meet project requirements).
+            //Enables us to change max stock every run (no need to change code).
             while (!gotInput) {
                 String input = userInput.nextLine();
                 try {
@@ -33,23 +35,29 @@ public class Main {
                 }
             }
             System.out.println("Thank you. We will now start up operation of your brand-new roll store!");
+            //Output will now be written to the output file.
             FileOutputStream outFile = new FileOutputStream("output.txt", false);
             System.setOut(new PrintStream(outFile));
             StockAnnouncer sa = new StockAnnouncer();
             BoulderRollStore brs = new BoulderRollStore(maxStock, sa);
+            //Set the types of customers our store will have (different stores may have different customer types).
             ArrayList<String> custTypes = new ArrayList<>();
             custTypes.add("Casual");
             custTypes.add("Business");
             custTypes.add("Catering");
+            //Run the store for 30 days
             while (brs.getDay() < 30) {
                 brs.newDay();
+                //Restock any out of stock rolls and reset the stock announcer's status if stock ran out
                 if (sa.isStockOut()) {
                     sa.resetStock();
                 }
                 brs.restockRolls();
+                //Reset all daily values back to 0
                 brs.resetDailyCashSales();
                 brs.resetDailyOutages();
                 brs.resetDailyRollSales();
+                //Print out the initial stock for the day
                 HashMap<String, Integer> initStock = brs.getStock();
                 System.out.println("Day " + brs.getDay());
                 System.out.println("Rolls in inventory at the start of the day:");
@@ -58,16 +66,18 @@ public class Main {
                     int amount = (int) item.getValue();
                     System.out.println(rollType + " roll: " + amount + " in stock");
                 }
+                //Make copy of customer types as to not modify the original list (that way on every loop we can get a full copy of the customers).
                 ArrayList<String> custCopy = (ArrayList<String>) custTypes.clone();
                 Random rand = new Random();
                 int randCas = rand.nextInt(12) + 1;
                 int randBus = rand.nextInt(3) + 1;
                 int randCat = rand.nextInt(3) + 1;
-                boolean allCust = false;
                 brs.openStore();
                 while (brs.isOpen()) {
-                    if (!allCust) {
+                    //While not every customer has ordered, let them order their rolls
+                    if (randCat > 0 || randBus > 0 || randCas > 0) {
 //                        System.out.println(custCopy);
+                        //Chose a random customer to order next
                         String curCust = custCopy.get(rand.nextInt(custCopy.size()));
                         switch (curCust) {
                             case "Casual":
@@ -76,6 +86,7 @@ public class Main {
                                     performOrder(casCust, brs);
                                     randCas--;
                                 } else {
+                                    //All casual customers have ordered for the day, remove them from the customer choices arraylist.
                                     custCopy.remove("Casual");
                                 }
                                 break;
@@ -85,6 +96,7 @@ public class Main {
                                     performOrder(busCust, brs);
                                     randBus--;
                                 } else {
+                                    //All business customers have ordered for the day, remove them from the customer choices arraylist.
                                     custCopy.remove("Business");
                                 }
                                 break;
@@ -94,33 +106,52 @@ public class Main {
                                     performOrder(catCust, brs);
                                     randCat--;
                                 } else {
+                                    //All catering customers have ordered for the day, remove them from the customer choices arraylist.
                                     custCopy.remove("Catering");
                                 }
                                 break;
                         }
-                        if (randCat == 0 && randBus == 0 && randCas == 0) {
-                            allCust = true;
-                            brs.closeStore();
-                        }
+                    }
+                    //All customers have ordered, close the store
+                    else{
+                        brs.closeStore();
                     }
                 }
+                //allOut will hold the rolls that are out of stock. Will display what roll need to be restocked for the next day.
+                ArrayList<String> allOut = new ArrayList<>();
+                //Print out the roll inventory for the end of the day.
                 HashMap<String, Integer> endStock = brs.getStock();
                 System.out.println("Rolls in inventory at the end of the day:");
                 for (Map.Entry item : endStock.entrySet()) {
                     int amount = (int) item.getValue();
                     String rollType = (String) item.getKey();
                     System.out.println(rollType + " roll: " + amount + " in stock");
+                    if(amount == 0){
+                        allOut.add(rollType);
+                    }
                 }
+                //Check if any rolls ran out. If so, print out what rolls need to be restocked.
+                if(allOut.size() > 0){
+                    String restockRolls = "";
+                    for (String rollType: allOut){
+                        restockRolls += maxStock + " " + rollType + " Rolls, ";
+                    }
+                    System.out.println("Inventory will restock " + restockRolls + "at the beginning of the next day.\n");
+                }
+                //Display the daily sales statistics
                 brs.displayDailyCashSales();
                 brs.displayDailyImpacts();
                 brs.displayRollsOrdered("Daily");
+                //If the store closed due to stock completely running out, print that out.
                 if (sa.isStockOut()) {
-                    System.out.println("Store closed on day " + brs.getDay() + " due to lack of inventory.\n");
+                    System.out.println("\nStore closed on day " + brs.getDay() + " due to lack of inventory.");
                 }
+                System.out.println();
             }
 
+            //Modify output to properly output money format
             DecimalFormat df = new DecimalFormat("0.00");
-
+            //Print out the 30-day statistics
             System.out.println("Store statistics after 30 days:");
             brs.displayRollsOrdered("Total");
             System.out.println("Total money in sales: $" + df.format(brs.getTotalCash()));
