@@ -6,10 +6,15 @@ Anna Nuggehalli, Dylan Quach, Casey Tran
 ## Assumptions Made:
 - User is running the program on IntelliJ IDEA or in a terminal.
 - JDK is version 8 or newer.
+- JUnit is version 4 or newer.
 - Customer will make their original and revised ordered (save Business customers) back to back (in the same function call) if their roll(s) is out of stock.
 - The roll store is capable of displaying (printing out) order information and daily/monthly statistics.
 - Individual orders will first display quantity of roll types ordered and then display what each roll has (if extras were ordered).
 - When stock runs out for the day, the program will output what rolls will be restocked the following after displaying end-of-day inventory numbers.
+
+## Program Design:
+- The Factory, Decorator, and Observer design patterns were utilized for this program (labeled inside the code itself).
+- JUnit was used for testing. 10 test methods were written to ensure proper behavior of the program.
 
 ## Issues During Dev:
 - Figuring out how to track the stock, cash made, and rolls ordered. Initially thought of using multiple ArrayLists, but changed to HashMaps due to their similarity to Python's Dictionaries.
