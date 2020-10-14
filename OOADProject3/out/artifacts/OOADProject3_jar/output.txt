@@ -1,0 +1,5261 @@
+Day 1
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 2 Bacon topping
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $64.96
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Pastry roll, 2 Fruit sauce
+Pastry roll, 1 Fruit sauce
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $36.12
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Egg roll: 5
+Individual roll information:
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 1 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce
+Egg roll, 2 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Jelly roll
+Jelly roll, 2 Fruit sauce
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $45.13
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $11.05
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $7.72
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Egg roll: 5
+Individual roll information:
+Egg roll, 2 Mint topping
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 1 Mint topping
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream
+Jelly roll, 1 Whipped cream, 2 Fruit sauce
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $48.06
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 3
+Individual roll information:
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $12.17
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream
+Total cost of order: $7.58
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $8.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $6.45
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $11.43
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $9.97
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $3.65
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $11.23
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 1):
+Sausage roll: 19 in stock
+Egg roll: 16 in stock
+Pastry roll: 15 in stock
+Spring roll: 16 in stock
+Jelly roll: 7 in stock
+Total payment for orders today (Day 1):
+Casual customers: $89.47
+Catering customers: $158.15
+Business customers: $36.12
+Overall total payment: $283.74
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 1):
+Sausage rolls: 11 sold
+Egg rolls: 14 sold
+Pastry rolls: 15 sold
+Spring rolls: 14 sold
+Jelly rolls: 23 sold
+
+Day 2
+Rolls in inventory at the start of the day:
+Sausage roll: 19 in stock
+Egg roll: 16 in stock
+Pastry roll: 15 in stock
+Spring roll: 16 in stock
+Jelly roll: 7 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $9.39
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $38.04
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Total cost of order: $86.57
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 14
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Mint topping
+Egg roll, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping
+Total cost of order: $43.32
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 2):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 13 in stock
+Spring roll: 14 in stock
+Jelly roll: 4 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 2):
+Casual customers: $9.39
+Catering customers: $129.89
+Business customers: $38.04
+Overall total payment: $177.32
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 2):
+Sausage rolls: 19 sold
+Egg rolls: 16 sold
+Pastry rolls: 2 sold
+Spring rolls: 2 sold
+Jelly rolls: 3 sold
+
+Day 3
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 13 in stock
+Spring roll: 14 in stock
+Jelly roll: 4 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll
+Total cost of order: $58.82
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 2 Soy sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $9.90
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce
+Egg roll
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Soy sauce
+Spring roll
+Spring roll, 2 Mint topping, 1 Soy sauce
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Spring roll
+Spring roll
+Total cost of order: $45.70
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Bacon topping
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Spring roll, 2 Soy sauce
+Spring roll, 1 Mint topping
+Jelly roll
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $37.75
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Fruit sauce
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Total cost of order: $12.41
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Total cost of order: $8.27
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $4.11
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.81
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 2
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Pastry roll, 3 Fruit sauce
+Total cost of order: $14.84
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Ketchup
+Egg roll, 1 Shrimp filling
+Total cost of order: $12.10
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $8.42
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 3 Ketchup
+Pastry roll, 2 Fruit sauce
+Total cost of order: $7.69
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Ketchup
+Egg roll, 1 Soy sauce
+Total cost of order: $6.07
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 3):
+Sausage roll: 14 in stock
+Egg roll: 15 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Pastry Rolls, 30 Spring Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 3):
+Casual customers: $90.80
+Catering customers: $104.52
+Business customers: $37.75
+Overall total payment: $233.07
+Number of orders impacted by roll outages:
+Casual customers: 2 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 3):
+Sausage rolls: 16 sold
+Egg rolls: 15 sold
+Pastry rolls: 13 sold
+Spring rolls: 14 sold
+Jelly rolls: 4 sold
+
+Day 4
+Rolls in inventory at the start of the day:
+Sausage roll: 14 in stock
+Egg roll: 15 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $10.46
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $7.39
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $4.20
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.73
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Egg roll, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $36.73
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Ketchup
+Total cost of order: $66.53
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Jelly roll
+Total cost of order: $14.16
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 11
+Sausage roll: 4
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Egg roll, 1 Soy sauce
+Egg roll, 3 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 1 Mint topping
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $54.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll
+Total cost of order: $2.00
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Soy sauce
+Jelly roll, 2 Fruit sauce
+Total cost of order: $5.31
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 4):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 21 in stock
+Spring roll: 26 in stock
+Jelly roll: 20 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 4):
+Casual customers: $47.25
+Catering customers: $120.75
+Business customers: $36.73
+Overall total payment: $204.73
+Number of orders impacted by roll outages:
+Casual customers: 1 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 4):
+Sausage rolls: 14 sold
+Egg rolls: 15 sold
+Pastry rolls: 9 sold
+Spring rolls: 4 sold
+Jelly rolls: 10 sold
+
+Day 5
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 21 in stock
+Spring roll: 26 in stock
+Jelly roll: 20 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $7.65
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 1 Soy sauce
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $9.92
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Individual roll information:
+Spring roll, 1 Mint topping, 1 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $6.77
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Pastry roll, 1 Whipped cream
+Pastry roll
+Pastry roll, 1 Whipped cream
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Soy sauce
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Shrimp filling
+Total cost of order: $48.77
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Jelly roll, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 1 Shrimp filling
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Total cost of order: $57.50
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping
+Sausage roll, 2 Bacon topping
+Egg roll
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Whipped cream
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit sauce
+Total cost of order: $40.39
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $4.03
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Pastry roll, 2 Whipped cream
+Spring roll
+Total cost of order: $9.53
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Total cost of order: $4.62
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Shrimp filling
+Total cost of order: $3.50
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 2 Soy sauce
+Jelly roll, 2 Whipped cream
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $8.43
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $16.95
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce
+Total cost of order: $6.30
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Jelly roll, 2 Fruit sauce
+Total cost of order: $11.84
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 5):
+Sausage roll: 18 in stock
+Egg roll: 14 in stock
+Pastry roll: 11 in stock
+Spring roll: 11 in stock
+Jelly roll: 9 in stock
+Total payment for orders today (Day 5):
+Casual customers: $89.54
+Catering customers: $106.27
+Business customers: $40.39
+Overall total payment: $236.20
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 5):
+Sausage rolls: 12 sold
+Egg rolls: 16 sold
+Pastry rolls: 10 sold
+Spring rolls: 15 sold
+Jelly rolls: 11 sold
+
+Day 6
+Rolls in inventory at the start of the day:
+Sausage roll: 18 in stock
+Egg roll: 14 in stock
+Pastry roll: 11 in stock
+Spring roll: 11 in stock
+Jelly roll: 9 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Egg roll, 2 Mint topping
+Egg roll, 2 Soy sauce
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll
+Total cost of order: $59.61
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping
+Sausage roll, 2 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Spring roll, 2 Mint topping, 3 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $35.57
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 2 Soy sauce
+Total cost of order: $6.70
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Total cost of order: $7.16
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce
+Jelly roll, 2 Fruit sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $40.76
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit filling
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $39.23
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $9.53
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Spring roll, 2 Mint topping, 1 Soy sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $13.05
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $8.67
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.66
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll
+Total cost of order: $4.00
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $7.43
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 3 Ketchup
+Total cost of order: $4.06
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 3 Soy sauce
+Total cost of order: $2.34
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of all rolls for the day. The store will now close. We apologize for the inconvenience.
+
+The store is now closed!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce
+Total cost of order: $6.29
+
+Rolls in inventory at the end of the day: (Day 6):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 6):
+Casual customers: $72.89
+Catering customers: $59.61
+Business customers: $115.56
+Overall total payment: $248.06
+Number of orders impacted by roll outages:
+Casual customers: 7 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 6):
+Sausage rolls: 18 sold
+Egg rolls: 14 sold
+Pastry rolls: 11 sold
+Spring rolls: 11 sold
+Jelly rolls: 9 sold
+
+Store closed on day 6 due to lack of inventory.
+
+Day 7
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 3 Soy sauce
+Spring roll, 1 Soy sauce
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $48.10
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Ketchup
+Egg roll, 2 Mint topping
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $38.16
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Egg roll, 1 Mint topping
+Pastry roll, 2 Fruit sauce
+Pastry roll, 3 Fruit sauce
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce
+Jelly roll, 1 Fruit filling
+Total cost of order: $38.93
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Total cost of order: $5.84
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Fruit sauce
+Total cost of order: $6.97
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 2 Whipped cream
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Spring roll, 1 Mint topping, 1 Soy sauce
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $62.53
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Fruit sauce
+Jelly roll, 1 Whipped cream
+Jelly roll, 2 Fruit sauce
+Jelly roll, 1 Whipped cream, 2 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll
+Egg roll, 2 Mint topping
+Egg roll, 3 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $48.92
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Egg roll
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $39.76
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Individual roll information:
+Jelly roll, 1 Fruit sauce
+Spring roll, 2 Mint topping, 2 Soy sauce
+Total cost of order: $6.05
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $10.52
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 3
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Total cost of order: $15.26
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 2
+Individual roll information:
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll
+Spring roll, 1 Mint topping, 1 Soy sauce
+Total cost of order: $7.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Ketchup
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $7.87
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Individual roll information:
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll
+Total cost of order: $5.49
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $9.14
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 1 Mint topping
+Total cost of order: $10.34
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Egg roll: 2
+Individual roll information:
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $8.73
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 7):
+Sausage roll: 14 in stock
+Egg roll: 5 in stock
+Pastry roll: 7 in stock
+Spring roll: 7 in stock
+Jelly roll: 14 in stock
+Total payment for orders today (Day 7):
+Casual customers: $96.61
+Catering customers: $159.55
+Business customers: $116.85
+Overall total payment: $373.01
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 7):
+Sausage rolls: 16 sold
+Egg rolls: 25 sold
+Pastry rolls: 23 sold
+Spring rolls: 23 sold
+Jelly rolls: 16 sold
+
+Day 8
+Rolls in inventory at the start of the day:
+Sausage roll: 14 in stock
+Egg roll: 5 in stock
+Pastry roll: 7 in stock
+Spring roll: 7 in stock
+Jelly roll: 14 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Spring roll, 3 Soy sauce
+Spring roll, 2 Soy sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Total cost of order: $35.29
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $7.42
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $39.45
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Whipped cream
+Total cost of order: $7.09
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 3
+Sausage roll: 10
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Pastry roll
+Spring roll, 1 Mint topping, 3 Soy sauce
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $68.09
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of all rolls for the day. The store will now close. We apologize for the inconvenience.
+
+The store is now closed!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 8
+Individual roll information:
+Jelly roll, 1 Whipped cream, 2 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 3 Fruit sauce
+Jelly roll, 1 Whipped cream
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $27.19
+
+Rolls in inventory at the end of the day: (Day 8):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 8):
+Casual customers: $14.51
+Catering customers: $95.28
+Business customers: $74.74
+Overall total payment: $184.53
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 8):
+Sausage rolls: 14 sold
+Egg rolls: 5 sold
+Pastry rolls: 7 sold
+Spring rolls: 7 sold
+Jelly rolls: 14 sold
+
+Store closed on day 8 due to lack of inventory.
+
+Day 9
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce
+Total cost of order: $51.70
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $39.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $6.32
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $4.04
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Jelly roll, 3 Fruit sauce
+Total cost of order: $13.76
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Spring roll, 2 Mint topping, 3 Soy sauce
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $13.21
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 3 Soy sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $10.15
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Total cost of order: $9.26
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Pastry roll, 2 Whipped cream
+Spring roll, 2 Mint topping
+Total cost of order: $13.29
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Total cost of order: $10.77
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Egg roll, 2 Soy sauce
+Egg roll
+Total cost of order: $8.79
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 9):
+Sausage roll: 21 in stock
+Egg roll: 19 in stock
+Pastry roll: 18 in stock
+Spring roll: 20 in stock
+Jelly roll: 25 in stock
+Total payment for orders today (Day 9):
+Casual customers: $89.59
+Catering customers: $51.70
+Business customers: $39.18
+Overall total payment: $180.47
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 9):
+Sausage rolls: 9 sold
+Egg rolls: 11 sold
+Pastry rolls: 12 sold
+Spring rolls: 10 sold
+Jelly rolls: 5 sold
+
+Day 10
+Rolls in inventory at the start of the day:
+Sausage roll: 21 in stock
+Egg roll: 19 in stock
+Pastry roll: 18 in stock
+Spring roll: 20 in stock
+Jelly roll: 25 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Egg roll, 2 Soy sauce
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 3 Soy sauce
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Fruit filling
+Jelly roll, 3 Fruit sauce
+Total cost of order: $40.26
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Fruit sauce
+Total cost of order: $35.71
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 3 Fruit sauce
+Total cost of order: $3.72
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit filling
+Pastry roll
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Spring roll, 2 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Shrimp filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Total cost of order: $62.65
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Shrimp filling
+Total cost of order: $2.75
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Soy sauce
+Spring roll, 1 Mint topping, 1 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream
+Pastry roll, 1 Fruit sauce
+Total cost of order: $50.76
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Spring roll, 1 Shrimp filling
+Total cost of order: $11.52
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce
+Total cost of order: $3.63
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Fruit sauce
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Egg roll, 2 Mint topping, 3 Soy sauce
+Total cost of order: $7.13
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.88
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $4.02
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 10):
+Sausage roll: 10 in stock
+Egg roll: 8 in stock
+Pastry roll: 0 in stock
+Spring roll: 4 in stock
+Jelly roll: 20 in stock
+Inventory will restock 30 Pastry Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 10):
+Casual customers: $39.83
+Catering customers: $113.41
+Business customers: $75.97
+Overall total payment: $229.21
+Number of orders impacted by roll outages:
+Casual customers: 1 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 10):
+Sausage rolls: 11 sold
+Egg rolls: 11 sold
+Pastry rolls: 18 sold
+Spring rolls: 16 sold
+Jelly rolls: 5 sold
+
+Day 11
+Rolls in inventory at the start of the day:
+Sausage roll: 10 in stock
+Egg roll: 8 in stock
+Pastry roll: 30 in stock
+Spring roll: 4 in stock
+Jelly roll: 20 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $7.69
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Soy sauce
+Total cost of order: $2.66
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 3 Fruit sauce
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Total cost of order: $40.18
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 5
+Sausage roll: 8
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Ketchup
+Egg roll
+Egg roll
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $60.68
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $6.25
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $8.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $7.85
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $11.43
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream
+Total cost of order: $7.21
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 11):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 19 in stock
+Spring roll: 0 in stock
+Jelly roll: 13 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Spring Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 11):
+Casual customers: $54.49
+Catering customers: $60.68
+Business customers: $40.18
+Overall total payment: $155.35
+Number of orders impacted by roll outages:
+Casual customers: 4 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 11):
+Sausage rolls: 10 sold
+Egg rolls: 8 sold
+Pastry rolls: 11 sold
+Spring rolls: 4 sold
+Jelly rolls: 7 sold
+
+Day 12
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 19 in stock
+Spring roll: 30 in stock
+Jelly roll: 13 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Egg roll, 1 Mint topping
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $12.13
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Sausage roll
+Sausage roll
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping
+Jelly roll, 1 Whipped cream, 2 Fruit sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Total cost of order: $63.48
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $10.35
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $2.99
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 3 Soy sauce
+Spring roll, 2 Soy sauce
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $39.53
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.81
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 12):
+Sausage roll: 22 in stock
+Egg roll: 23 in stock
+Pastry roll: 11 in stock
+Spring roll: 27 in stock
+Jelly roll: 6 in stock
+Total payment for orders today (Day 12):
+Casual customers: $29.28
+Catering customers: $63.48
+Business customers: $39.53
+Overall total payment: $132.29
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 12):
+Sausage rolls: 8 sold
+Egg rolls: 7 sold
+Pastry rolls: 8 sold
+Spring rolls: 3 sold
+Jelly rolls: 7 sold
+
+Day 13
+Rolls in inventory at the start of the day:
+Sausage roll: 22 in stock
+Egg roll: 23 in stock
+Pastry roll: 11 in stock
+Spring roll: 27 in stock
+Jelly roll: 6 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.41
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 2 Whipped cream
+Egg roll, 1 Mint topping, 1 Soy sauce
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Egg roll, 1 Shrimp filling
+Egg roll
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll
+Pastry roll, 2 Fruit sauce
+Pastry roll, 1 Fruit sauce
+Total cost of order: $47.53
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 2 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Total cost of order: $77.20
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 8
+Sausage roll: 7
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 1 Mint topping
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Egg roll, 2 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $63.03
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 13):
+Sausage roll: 0 in stock
+Egg roll: 9 in stock
+Pastry roll: 6 in stock
+Spring roll: 27 in stock
+Jelly roll: 1 in stock
+Inventory will restock 30 Sausage Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 13):
+Casual customers: $3.41
+Catering customers: $187.76
+Business customers: $0.00
+Overall total payment: $191.17
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 13):
+Sausage rolls: 22 sold
+Egg rolls: 14 sold
+Pastry rolls: 5 sold
+Spring rolls: 0 sold
+Jelly rolls: 5 sold
+
+Day 14
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 9 in stock
+Pastry roll: 6 in stock
+Spring roll: 27 in stock
+Jelly roll: 1 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 3 Ketchup
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce
+Spring roll
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll
+Total cost of order: $58.95
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 2 Soy sauce
+Total cost of order: $2.96
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Soy sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $5.97
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Individual roll information:
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Total cost of order: $5.15
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.96
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $10.10
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Ketchup
+Spring roll, 1 Mint topping
+Total cost of order: $6.69
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 14):
+Sausage roll: 23 in stock
+Egg roll: 6 in stock
+Pastry roll: 0 in stock
+Spring roll: 18 in stock
+Jelly roll: 1 in stock
+Inventory will restock 30 Pastry Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 14):
+Casual customers: $34.83
+Catering customers: $58.95
+Business customers: $0.00
+Overall total payment: $93.78
+Number of orders impacted by roll outages:
+Casual customers: 1 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 14):
+Sausage rolls: 7 sold
+Egg rolls: 3 sold
+Pastry rolls: 6 sold
+Spring rolls: 9 sold
+Jelly rolls: 0 sold
+
+Day 15
+Rolls in inventory at the start of the day:
+Sausage roll: 23 in stock
+Egg roll: 6 in stock
+Pastry roll: 30 in stock
+Spring roll: 18 in stock
+Jelly roll: 1 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Cheese filling
+Total cost of order: $81.56
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Individual roll information:
+Egg roll, 1 Soy sauce
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $5.39
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $10.37
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 2
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $13.35
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $10.61
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 3 Ketchup
+Total cost of order: $4.06
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Total cost of order: $5.29
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $2.99
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Soy sauce
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $5.86
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll
+Total cost of order: $3.50
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 15):
+Sausage roll: 2 in stock
+Egg roll: 2 in stock
+Pastry roll: 27 in stock
+Spring roll: 17 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 15):
+Casual customers: $61.42
+Catering customers: $81.56
+Business customers: $0.00
+Overall total payment: $142.98
+Number of orders impacted by roll outages:
+Casual customers: 2 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 15):
+Sausage rolls: 21 sold
+Egg rolls: 4 sold
+Pastry rolls: 3 sold
+Spring rolls: 1 sold
+Jelly rolls: 1 sold
+
+Day 16
+Rolls in inventory at the start of the day:
+Sausage roll: 2 in stock
+Egg roll: 2 in stock
+Pastry roll: 27 in stock
+Spring roll: 17 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 2 Soy sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce
+Spring roll
+Spring roll, 2 Mint topping, 2 Soy sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $38.19
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Pastry roll: 15
+Individual roll information:
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $60.99
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream
+Total cost of order: $3.93
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $7.87
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $3.84
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 9
+Pastry roll: 6
+Individual roll information:
+Pastry roll, 1 Fruit filling
+Pastry roll, 1 Fruit filling
+Pastry roll
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Soy sauce
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 1 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 1 Mint topping
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce
+Total cost of order: $50.84
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 3 Soy sauce
+Total cost of order: $3.04
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 10
+Spring roll: 5
+Individual roll information:
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Shrimp filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 2 Fruit sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Jelly roll, 1 Whipped cream
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit filling
+Jelly roll, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $51.93
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Fruit sauce
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $3.38
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll
+Total cost of order: $3.00
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $3.63
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream
+Total cost of order: $3.36
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 3 Fruit sauce
+Total cost of order: $3.27
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $3.45
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 16):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 10 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 16):
+Casual customers: $45.13
+Catering customers: $163.76
+Business customers: $38.19
+Overall total payment: $247.08
+Number of orders impacted by roll outages:
+Casual customers: 8 orders impacted.
+Catering customers: 3 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 16):
+Sausage rolls: 2 sold
+Egg rolls: 2 sold
+Pastry rolls: 27 sold
+Spring rolls: 17 sold
+Jelly rolls: 20 sold
+
+Day 17
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 10 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce
+Total cost of order: $3.63
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $10.78
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Egg roll, 1 Mint topping
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Total cost of order: $63.48
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Soy sauce
+Pastry roll, 2 Whipped cream
+Total cost of order: $6.11
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Total cost of order: $65.28
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.34
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Ketchup
+Egg roll, 1 Mint topping
+Spring roll, 3 Soy sauce
+Total cost of order: $8.86
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Ketchup
+Spring roll, 1 Mint topping, 3 Soy sauce
+Total cost of order: $6.93
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $9.29
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Total cost of order: $5.31
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Total cost of order: $6.54
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Total cost of order: $7.14
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 17):
+Sausage roll: 13 in stock
+Egg roll: 22 in stock
+Pastry roll: 22 in stock
+Spring roll: 27 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 17):
+Casual customers: $67.93
+Catering customers: $128.76
+Business customers: $0.00
+Overall total payment: $196.69
+Number of orders impacted by roll outages:
+Casual customers: 2 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 17):
+Sausage rolls: 17 sold
+Egg rolls: 8 sold
+Pastry rolls: 8 sold
+Spring rolls: 3 sold
+Jelly rolls: 10 sold
+
+Day 18
+Rolls in inventory at the start of the day:
+Sausage roll: 13 in stock
+Egg roll: 22 in stock
+Pastry roll: 22 in stock
+Spring roll: 27 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping
+Egg roll, 1 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 2 Soy sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Spring roll, 2 Soy sauce
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $39.03
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce
+Egg roll, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 3 Fruit sauce
+Total cost of order: $51.68
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Whipped cream
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $9.74
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $9.61
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll
+Total cost of order: $38.53
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 1 Mint topping
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 3 Fruit sauce
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Total cost of order: $58.64
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 18):
+Sausage roll: 3 in stock
+Egg roll: 7 in stock
+Pastry roll: 12 in stock
+Spring roll: 21 in stock
+Jelly roll: 16 in stock
+Total payment for orders today (Day 18):
+Casual customers: $19.35
+Catering customers: $110.32
+Business customers: $77.56
+Overall total payment: $207.23
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 18):
+Sausage rolls: 10 sold
+Egg rolls: 15 sold
+Pastry rolls: 10 sold
+Spring rolls: 6 sold
+Jelly rolls: 14 sold
+
+Day 19
+Rolls in inventory at the start of the day:
+Sausage roll: 3 in stock
+Egg roll: 7 in stock
+Pastry roll: 12 in stock
+Spring roll: 21 in stock
+Jelly roll: 16 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Egg roll, 2 Soy sauce
+Egg roll, 3 Soy sauce
+Pastry roll, 1 Whipped cream
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $37.89
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $7.11
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $13.58
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce
+Total cost of order: $9.67
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 2
+Individual roll information:
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce
+Total cost of order: $10.95
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $2.99
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $9.70
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Soy sauce
+Pastry roll, 1 Fruit filling
+Total cost of order: $5.98
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Pastry roll: 5
+Individual roll information:
+Spring roll, 1 Soy sauce
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Jelly roll, 1 Whipped cream
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream
+Total cost of order: $54.28
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $11.74
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $4.04
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 19):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 7 in stock
+Jelly roll: 6 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 19):
+Casual customers: $75.76
+Catering customers: $54.28
+Business customers: $37.89
+Overall total payment: $167.93
+Number of orders impacted by roll outages:
+Casual customers: 4 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 19):
+Sausage rolls: 3 sold
+Egg rolls: 7 sold
+Pastry rolls: 12 sold
+Spring rolls: 14 sold
+Jelly rolls: 10 sold
+
+Day 20
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 7 in stock
+Jelly roll: 6 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Total cost of order: $65.55
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Spring roll, 2 Soy sauce
+Total cost of order: $9.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $14.52
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Total cost of order: $5.27
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Total cost of order: $60.80
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping
+Total cost of order: $83.33
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 20):
+Sausage roll: 1 in stock
+Egg roll: 24 in stock
+Pastry roll: 20 in stock
+Spring roll: 6 in stock
+Jelly roll: 1 in stock
+Total payment for orders today (Day 20):
+Casual customers: $29.01
+Catering customers: $209.68
+Business customers: $0.00
+Overall total payment: $238.69
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 20):
+Sausage rolls: 29 sold
+Egg rolls: 6 sold
+Pastry rolls: 10 sold
+Spring rolls: 1 sold
+Jelly rolls: 5 sold
+
+Day 21
+Rolls in inventory at the start of the day:
+Sausage roll: 1 in stock
+Egg roll: 24 in stock
+Pastry roll: 20 in stock
+Spring roll: 6 in stock
+Jelly roll: 1 in stock
+The store is now open!
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 14
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce
+Egg roll, 2 Mint topping
+Egg roll, 1 Mint topping
+Egg roll, 3 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 3 Soy sauce
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Mint topping
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $43.02
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Soy sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $6.49
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping
+Pastry roll, 1 Whipped cream
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Total cost of order: $9.56
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll
+Total cost of order: $2.00
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 2
+Individual roll information:
+Egg roll, 3 Soy sauce
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce
+Total cost of order: $8.05
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 2 Mint topping, 2 Soy sauce
+Total cost of order: $2.96
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 2
+Pastry roll: 1
+Individual roll information:
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Total cost of order: $9.22
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce
+Total cost of order: $2.33
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 2
+Pastry roll: 13
+Individual roll information:
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll
+Pastry roll, 1 Whipped cream
+Pastry roll, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $55.68
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Shrimp filling
+Total cost of order: $11.94
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Spring roll, 1 Mint topping, 3 Soy sauce
+Total cost of order: $6.73
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Fruit filling
+Total cost of order: $3.85
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 21):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 1 in stock
+Spring roll: 1 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 21):
+Casual customers: $63.13
+Catering customers: $98.70
+Business customers: $0.00
+Overall total payment: $161.83
+Number of orders impacted by roll outages:
+Casual customers: 8 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 21):
+Sausage rolls: 1 sold
+Egg rolls: 24 sold
+Pastry rolls: 19 sold
+Spring rolls: 5 sold
+Jelly rolls: 1 sold
+
+Day 22
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 1 in stock
+Spring roll: 1 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling
+Total cost of order: $85.37
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Spring roll, 2 Mint topping
+Total cost of order: $12.09
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Total cost of order: $13.01
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.26
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Total cost of order: $6.52
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Total cost of order: $7.14
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 22):
+Sausage roll: 10 in stock
+Egg roll: 29 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 30 in stock
+Inventory will restock 30 Pastry Rolls, 30 Spring Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 22):
+Casual customers: $42.02
+Catering customers: $85.37
+Business customers: $0.00
+Overall total payment: $127.39
+Number of orders impacted by roll outages:
+Casual customers: 3 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 22):
+Sausage rolls: 20 sold
+Egg rolls: 1 sold
+Pastry rolls: 1 sold
+Spring rolls: 1 sold
+Jelly rolls: 0 sold
+
+Day 23
+Rolls in inventory at the start of the day:
+Sausage roll: 10 in stock
+Egg roll: 29 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Spring roll, 2 Mint topping, 2 Soy sauce
+Spring roll, 1 Soy sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $37.32
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 1 Fruit sauce
+Spring roll, 2 Mint topping, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping
+Spring roll, 2 Mint topping, 2 Soy sauce
+Pastry roll, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Fruit sauce
+Total cost of order: $53.65
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Jelly roll, 2 Whipped cream
+Total cost of order: $7.98
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Egg roll, 2 Mint topping, 1 Soy sauce
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $11.88
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Ketchup
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Shrimp filling
+Pastry roll
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Spring roll, 3 Soy sauce
+Spring roll, 2 Mint topping, 1 Soy sauce
+Jelly roll, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $36.43
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Total cost of order: $3.38
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $3.74
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 2
+Individual roll information:
+Spring roll, 2 Soy sauce
+Spring roll
+Jelly roll, 2 Whipped cream
+Total cost of order: $8.52
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Spring roll, 1 Mint topping, 3 Soy sauce
+Spring roll, 3 Soy sauce
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce
+Pastry roll, 2 Whipped cream
+Pastry roll, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $49.66
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Total cost of order: $4.62
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Spring roll, 1 Soy sauce
+Total cost of order: $8.49
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 13
+Sausage roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Egg roll, 1 Soy sauce
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce
+Egg roll
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 3 Soy sauce
+Egg roll, 2 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Total cost of order: $46.05
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.33
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 3
+Individual roll information:
+Pastry roll, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream
+Total cost of order: $11.87
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 3 Soy sauce
+Total cost of order: $2.89
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 1 Mint topping, 1 Soy sauce
+Total cost of order: $2.18
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 23):
+Sausage roll: 0 in stock
+Egg roll: 4 in stock
+Pastry roll: 13 in stock
+Spring roll: 11 in stock
+Jelly roll: 17 in stock
+Inventory will restock 30 Sausage Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 23):
+Casual customers: $68.88
+Catering customers: $149.36
+Business customers: $73.75
+Overall total payment: $291.99
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 1 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 23):
+Sausage rolls: 10 sold
+Egg rolls: 25 sold
+Pastry rolls: 17 sold
+Spring rolls: 19 sold
+Jelly rolls: 13 sold
+
+Day 24
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 4 in stock
+Pastry roll: 13 in stock
+Spring roll: 11 in stock
+Jelly roll: 17 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Egg roll, 3 Soy sauce
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Fruit sauce
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 3 Fruit sauce
+Jelly roll, 1 Fruit filling
+Total cost of order: $37.87
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $10.51
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Sausage roll: 15
+Individual roll information:
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 2 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll
+Total cost of order: $84.83
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 12
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 2 Bacon topping, 2 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 1 Cheese filling, 3 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Egg roll, 1 Soy sauce
+Pastry roll, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $71.51
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Soy sauce
+Total cost of order: $6.69
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Jelly roll, 2 Whipped cream
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll
+Spring roll, 1 Mint topping, 1 Shrimp filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Total cost of order: $54.20
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $12.30
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 2
+Individual roll information:
+Pastry roll
+Pastry roll, 1 Whipped cream
+Total cost of order: $7.25
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Individual roll information:
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $7.21
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Individual roll information:
+Jelly roll, 2 Whipped cream
+Jelly roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $6.92
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Individual roll information:
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $6.76
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $3.47
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 3 Fruit sauce
+Total cost of order: $3.27
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of all rolls for the day. The store will now close. We apologize for the inconvenience.
+
+The store is now closed!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Individual roll information:
+Jelly roll
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Total cost of order: $6.56
+
+Rolls in inventory at the end of the day: (Day 24):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 24):
+Casual customers: $70.94
+Catering customers: $210.54
+Business customers: $37.87
+Overall total payment: $319.35
+Number of orders impacted by roll outages:
+Casual customers: 8 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 24):
+Sausage rolls: 30 sold
+Egg rolls: 4 sold
+Pastry rolls: 13 sold
+Spring rolls: 11 sold
+Jelly rolls: 17 sold
+
+Store closed on day 24 due to lack of inventory.
+
+Day 25
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $9.32
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Egg roll, 1 Soy sauce
+Egg roll, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $36.69
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Spring roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Spring roll, 3 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $57.09
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Total cost of order: $4.04
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll, 2 Whipped cream
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Soy sauce
+Pastry roll
+Pastry roll, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $53.20
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 3 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.74
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Egg roll
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 3 Soy sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll, 3 Fruit sauce
+Total cost of order: $40.15
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Pastry roll, 3 Fruit sauce
+Pastry roll, 1 Fruit sauce
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $38.94
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 25):
+Sausage roll: 18 in stock
+Egg roll: 19 in stock
+Pastry roll: 18 in stock
+Spring roll: 13 in stock
+Jelly roll: 18 in stock
+Total payment for orders today (Day 25):
+Casual customers: $17.10
+Catering customers: $110.29
+Business customers: $115.78
+Overall total payment: $243.17
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 25):
+Sausage rolls: 12 sold
+Egg rolls: 11 sold
+Pastry rolls: 12 sold
+Spring rolls: 17 sold
+Jelly rolls: 12 sold
+
+Day 26
+Rolls in inventory at the start of the day:
+Sausage roll: 18 in stock
+Egg roll: 19 in stock
+Pastry roll: 18 in stock
+Spring roll: 13 in stock
+Jelly roll: 18 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Spring roll
+Spring roll, 1 Mint topping
+Total cost of order: $9.75
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Pastry roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Pastry roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $8.64
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Sausage roll: 5
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 3 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 1 Whipped cream
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Ketchup
+Sausage roll, 1 Ketchup
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream
+Jelly roll, 2 Whipped cream, 1 Fruit filling
+Total cost of order: $62.58
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll
+Total cost of order: $3.00
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping
+Sausage roll, 1 Ketchup
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 1 Soy sauce
+Jelly roll
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Total cost of order: $35.97
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling
+Spring roll, 3 Soy sauce
+Total cost of order: $7.34
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Bacon topping
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Spring roll
+Spring roll, 3 Soy sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce
+Jelly roll
+Total cost of order: $35.54
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Egg roll, 1 Mint topping
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Pastry roll
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Spring roll, 2 Mint topping
+Spring roll, 1 Soy sauce
+Jelly roll
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $38.82
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 26):
+Sausage roll: 4 in stock
+Egg roll: 13 in stock
+Pastry roll: 6 in stock
+Spring roll: 4 in stock
+Jelly roll: 6 in stock
+Total payment for orders today (Day 26):
+Casual customers: $28.73
+Catering customers: $62.58
+Business customers: $110.33
+Overall total payment: $201.64
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 26):
+Sausage rolls: 14 sold
+Egg rolls: 6 sold
+Pastry rolls: 12 sold
+Spring rolls: 9 sold
+Jelly rolls: 12 sold
+
+Day 27
+Rolls in inventory at the start of the day:
+Sausage roll: 4 in stock
+Egg roll: 13 in stock
+Pastry roll: 6 in stock
+Spring roll: 4 in stock
+Jelly roll: 6 in stock
+The store is now open!
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 11
+Sausage roll: 4
+Individual roll information:
+Sausage roll
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Egg roll, 1 Mint topping
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping
+Egg roll, 1 Mint topping
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $50.10
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 2
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce
+Jelly roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $9.45
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Pastry roll: 1
+Individual roll information:
+Egg roll, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $7.30
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 2
+Individual roll information:
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $8.44
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 2 Fruit sauce
+Spring roll, 2 Mint topping
+Total cost of order: $6.43
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 1 Fruit sauce
+Total cost of order: $7.49
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of all rolls for the day. The store will now close. We apologize for the inconvenience.
+
+The store is now closed!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 3
+Spring roll: 3
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Jelly roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $23.95
+
+Rolls in inventory at the end of the day: (Day 27):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 27):
+Casual customers: $39.11
+Catering customers: $74.05
+Business customers: $0.00
+Overall total payment: $113.16
+Number of orders impacted by roll outages:
+Casual customers: 5 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 27):
+Sausage rolls: 4 sold
+Egg rolls: 13 sold
+Pastry rolls: 6 sold
+Spring rolls: 4 sold
+Jelly rolls: 6 sold
+
+Store closed on day 27 due to lack of inventory.
+
+Day 28
+Rolls in inventory at the start of the day:
+Sausage roll: 30 in stock
+Egg roll: 30 in stock
+Pastry roll: 30 in stock
+Spring roll: 30 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream
+Total cost of order: $3.18
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Fruit sauce
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 2 Soy sauce
+Jelly roll, 2 Fruit sauce
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $41.85
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Pastry roll: 5
+Individual roll information:
+Jelly roll
+Jelly roll, 1 Fruit sauce
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream
+Egg roll
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 1 Soy sauce
+Egg roll, 3 Soy sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 1 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $48.76
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Sausage roll: 5
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Ketchup
+Sausage roll, 2 Bacon topping, 1 Ketchup
+Jelly roll, 2 Whipped cream
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Jelly roll
+Spring roll, 1 Soy sauce
+Spring roll, 2 Mint topping
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 2 Soy sauce
+Total cost of order: $59.32
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Spring roll: 5
+Sausage roll: 5
+Individual roll information:
+Sausage roll
+Sausage roll, 1 Cheese filling
+Sausage roll, 2 Ketchup
+Sausage roll, 3 Ketchup
+Sausage roll, 2 Ketchup
+Jelly roll
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Jelly roll
+Jelly roll, 1 Fruit filling
+Spring roll, 1 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Spring roll, 3 Soy sauce
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Spring roll, 1 Mint topping, 1 Soy sauce
+Total cost of order: $53.83
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Pastry roll: 2
+Individual roll information:
+Pastry roll
+Pastry roll
+Spring roll, 2 Mint topping
+Total cost of order: $9.80
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.81
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Total cost of order: $3.93
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Bacon topping, 2 Ketchup
+Total cost of order: $5.29
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 28):
+Sausage roll: 17 in stock
+Egg roll: 23 in stock
+Pastry roll: 20 in stock
+Spring roll: 16 in stock
+Jelly roll: 12 in stock
+Total payment for orders today (Day 28):
+Casual customers: $26.01
+Catering customers: $161.91
+Business customers: $41.85
+Overall total payment: $229.77
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 28):
+Sausage rolls: 13 sold
+Egg rolls: 7 sold
+Pastry rolls: 10 sold
+Spring rolls: 14 sold
+Jelly rolls: 18 sold
+
+Day 29
+Rolls in inventory at the start of the day:
+Sausage roll: 17 in stock
+Egg roll: 23 in stock
+Pastry roll: 20 in stock
+Spring roll: 16 in stock
+Jelly roll: 12 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 5
+Egg roll: 5
+Sausage roll: 5
+Individual roll information:
+Egg roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Sausage roll, 2 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 2 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 3 Fruit sauce, 1 Fruit filling
+Jelly roll
+Jelly roll, 1 Whipped cream, 3 Fruit sauce, 1 Fruit filling
+Total cost of order: $61.90
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Egg roll, 3 Soy sauce
+Total cost of order: $9.35
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 2 Ketchup
+Egg roll, 1 Shrimp filling
+Egg roll, 2 Soy sauce
+Pastry roll, 1 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Fruit sauce, 1 Fruit filling
+Spring roll
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Whipped cream, 3 Fruit sauce
+Total cost of order: $39.09
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 3 Ketchup
+Total cost of order: $4.06
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Bacon topping, 3 Ketchup
+Sausage roll, 1 Ketchup
+Egg roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 1 Fruit filling
+Spring roll
+Spring roll, 2 Mint topping, 1 Soy sauce, 1 Shrimp filling
+Jelly roll, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit filling
+Total cost of order: $37.27
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Egg roll: 1
+Individual roll information:
+Egg roll, 2 Mint topping, 3 Soy sauce
+Total cost of order: $2.49
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 1 Cheese filling, 2 Bacon topping, 1 Ketchup
+Sausage roll, 1 Cheese filling, 2 Bacon topping
+Egg roll, 1 Soy sauce
+Egg roll, 2 Soy sauce, 1 Shrimp filling
+Pastry roll, 2 Whipped cream, 2 Fruit sauce
+Pastry roll
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 3 Fruit sauce
+Jelly roll, 1 Whipped cream
+Total cost of order: $40.09
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Soy sauce, 1 Shrimp filling
+Total cost of order: $3.58
+
+Attention all customers, we have run out of Jelly rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Individual roll information:
+Jelly roll, 1 Whipped cream, 1 Fruit sauce
+Total cost of order: $3.27
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 29):
+Sausage roll: 4 in stock
+Egg roll: 10 in stock
+Pastry roll: 14 in stock
+Spring roll: 9 in stock
+Jelly roll: 0 in stock
+Inventory will restock 30 Jelly Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 29):
+Casual customers: $22.75
+Catering customers: $61.90
+Business customers: $116.45
+Overall total payment: $201.10
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 0 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 29):
+Sausage rolls: 13 sold
+Egg rolls: 13 sold
+Pastry rolls: 6 sold
+Spring rolls: 7 sold
+Jelly rolls: 12 sold
+
+Day 30
+Rolls in inventory at the start of the day:
+Sausage roll: 4 in stock
+Egg roll: 10 in stock
+Pastry roll: 14 in stock
+Spring roll: 9 in stock
+Jelly roll: 30 in stock
+The store is now open!
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 1
+Sausage roll: 1
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping, 3 Ketchup
+Spring roll, 2 Mint topping
+Total cost of order: $8.71
+
+Individual customer order:
+Customer type: Business
+Rolls ordered by type:
+Jelly roll: 2
+Spring roll: 2
+Egg roll: 2
+Sausage roll: 2
+Pastry roll: 2
+Individual roll information:
+Sausage roll, 2 Bacon topping, 3 Ketchup
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Egg roll, 1 Shrimp filling
+Egg roll, 1 Mint topping, 3 Soy sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Spring roll, 1 Mint topping
+Spring roll, 1 Mint topping
+Jelly roll, 1 Whipped cream, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Total cost of order: $37.87
+
+Attention all customers, we have run out of Sausage rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Egg rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Egg roll: 8
+Sausage roll: 1
+Pastry roll: 6
+Individual roll information:
+Sausage roll, 1 Cheese filling, 1 Bacon topping
+Egg roll, 2 Mint topping, 1 Soy sauce
+Egg roll, 1 Mint topping, 2 Soy sauce, 1 Shrimp filling
+Egg roll, 1 Mint topping, 1 Shrimp filling
+Egg roll, 2 Mint topping, 3 Soy sauce
+Egg roll, 1 Mint topping
+Egg roll, 1 Mint topping, 1 Soy sauce
+Egg roll
+Egg roll, 1 Mint topping, 3 Soy sauce
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 2 Whipped cream, 3 Fruit sauce
+Pastry roll, 1 Fruit sauce, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Total cost of order: $49.62
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Spring roll: 2
+Pastry roll: 1
+Individual roll information:
+Pastry roll, 1 Whipped cream, 3 Fruit sauce
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 3 Soy sauce
+Total cost of order: $9.57
+
+Individual customer order:
+Customer type: Casual
+Rolls ordered by type:
+Jelly roll: 1
+Spring roll: 1
+Individual roll information:
+Spring roll, 1 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 3 Fruit sauce
+Total cost of order: $7.16
+
+Attention all customers, we have run out of Pastry rolls for the day. We apologize for the inconvenience.
+
+Attention all customers, we have run out of Spring rolls for the day. We apologize for the inconvenience.
+
+Individual customer order:
+Customer type: Catering
+Rolls ordered by type:
+Jelly roll: 7
+Spring roll: 3
+Pastry roll: 5
+Individual roll information:
+Pastry roll, 1 Whipped cream, 1 Fruit filling
+Pastry roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream
+Pastry roll, 2 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Pastry roll, 2 Whipped cream
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 1 Mint topping, 2 Soy sauce
+Spring roll, 2 Mint topping, 3 Soy sauce, 1 Shrimp filling
+Jelly roll, 3 Fruit sauce
+Jelly roll, 2 Whipped cream, 1 Fruit sauce, 1 Fruit filling
+Jelly roll, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 1 Fruit filling
+Jelly roll, 1 Whipped cream, 2 Fruit sauce, 1 Fruit filling
+Jelly roll, 2 Fruit sauce
+Jelly roll, 2 Fruit sauce
+Total cost of order: $53.33
+
+The store is now closed!
+
+Rolls in inventory at the end of the day: (Day 30):
+Sausage roll: 0 in stock
+Egg roll: 0 in stock
+Pastry roll: 0 in stock
+Spring roll: 0 in stock
+Jelly roll: 20 in stock
+Inventory will restock 30 Sausage Rolls, 30 Egg Rolls, 30 Pastry Rolls, 30 Spring Rolls, at the beginning of the next day.
+
+Total payment for orders today (Day 30):
+Casual customers: $25.44
+Catering customers: $102.95
+Business customers: $37.87
+Overall total payment: $166.26
+Number of orders impacted by roll outages:
+Casual customers: 0 orders impacted.
+Catering customers: 2 orders impacted.
+Business customers: 0 orders impacted.
+
+Rolls sold today (Day 30):
+Sausage rolls: 4 sold
+Egg rolls: 10 sold
+Pastry rolls: 14 sold
+Spring rolls: 9 sold
+Jelly rolls: 10 sold
+
+Store statistics after 30 days:
+Sausage rolls: 390 sold
+Egg rolls: 330 sold
+Pastry rolls: 330 sold
+Spring rolls: 270 sold
+Jelly rolls: 280 sold
+Total number of rolls sold overall: 1600 sold
+Total money in sales: $6179.19
+Total number of outage impacts: 79
